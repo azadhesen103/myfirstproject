@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link type="text/css" rel="stylesheet" href="new.css" />
+
+</head>
+<body>
+    <div style="width:100%;height:50px;position: fixed;"><p><span style="background-color: darkorange;color: darkblue;padding: 5px;border-radius: 10%;z-index: 99;" id="timeee"></span></p></div><br><br><br><br><header style="width:100%;text-align: center; height: auto;padding-bottom: 10px;">
+<h1>Yaa Welcome!!</h1>
+	
+<p contenteditable="false" id="ok">Hello there <span onClick="this.style.color='green';" onDblClick="this.style.color='red';"> Friend How </span> are you??
+	 are ell that's a pretty obvioufgsdfgsfgsfdgare ell that's a choice obvious choice if u ask me dude:you <span>Ok?!</span></p>
+<p>it is good to be <span>OK..Ok!!</span></p></header><br>
+<form id="myfor">
+<textarea cols="10" rows="5" wrap="soft" maxlength="10" placeholder="Hello" style="max-width: 250px;max-height: 100px;" label="What?" >
+</textarea>
+</form>
+<table style="table-layout: auto" bgcolor="red" cellpadding="5px" rules="cols" border="2px" summary="A fucking Table!!">
+<caption align="center">Azad's Table</caption>
+	<thead align="char" bgcolor="green">
+	<tr><th colspan="3">Hello There!!</th></tr> </thead>
+	<tfoot align="justify" valign="bottom" bgcolor="blue">
+	<tr><td nowrap align="center" colspan="2">This is The</td><td>Footer</td></tr></tfoot>
+	<tbody align="left" valign="top" bgcolor="yellow">
+	<tr><td width="50px" style="word-break: break-all" rowspan="2">This is where our jorny Ends my friend</td><td>Yess!!</td><td>of coursE!!</td> </tr>
+	<tr><td>I like u!</td><td>I mean of course!</td></tr>
+	</tbody></table>
+	<ul style="list-style-position: outside;list-style-type: square">
+	<li>Abc</li>
+	<ul style="list-style-position: outside;list-style-type:armenian;"><li>hello</li><li>There</li></ul><li>What??</li></ul>
+	
+<p title="ef" align="left center">Hello there Friend How are you?? are you Ok?!</p>
+<p id="intro">Hello there you fuck what
+	are you doing in here<br>
+	I like this fucking shit haa</p>
+	<p>Well that's a pretty obvious choice if u ask me dude: <a href="#ok">Click Here!!</a></p>
+	
+<form title="myform : " id="myform">
+<label contenteditable="false">text:</label>
+  <input id="azad" type="text" placeholder="Azad" readonly />
+password: <input  style="float: none;resize: both;" type="password" required/>
+What do prefer: <input type="checkbox" checked/>Hello
+<input type="checkbox"/> not herllo</form><br><br>
+   <p style="direction: ltr;"><span style="font-weight: bold;">Hello </span>There!
+	Hello <span>There</span> My <b>Friend</b><br>
+       <b>How</b> are <span>You?!</span></p><br>
+	<p ><span style="font-variant: small-caps;">Pretty </span><span>Good</span> I <b>Hope!..</b><br>
+        <em>Ok...</em><span> Bye!!</span></p>
+<p>I Welcome you to my page that's full<br>of <strong style="color:red;">Interesting</strong> things so to speak..</p>
+    
+<div style="position: absolute;"><div id="anim1" style="width:100px;height:100px;background-color:aqua;text-align: center;vertical-align: middle;"><p style="margin-top: 38px;">Fuck Off!!</p></div></div>
+<br><br><br><br><br><br><br>
+    
+<div id="boxee" style="background-color: white;border-width: thin;border-style: solid;width: 100px;height:100px;text-align:center;"><span style="vertical-align: middle;">Hello</span></div><hr><hr>
+<div style="user-select: text">
+    <img alt="heh" src="../../Pictures/Anime/One Punch Man/AnimeX_741057.jpeg" width="100%" id="oneee"><p>hefalksjdflk lkjsdf</p></div>
+    <br>
+    
+<button id="bttn" onClick="scrolllup()">Up please!!</button>
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript" >
+function ddate(){
+	var x = new Date();
+    var s = x.getSeconds();
+    var m = x.getMinutes();
+    var h = x.getHours();
+    var dd=x.getDay();
+    var mm = x.getMonth();
+    var yy= x.getFullYear();
+	document.getElementById("timeee").innerHTML = h +": "+ m+": "+ s+" - " +dd+"/"+mm+"/"+yy;
+	setTimeout(function (){
+		ddate();
+	},1000);
+}
+window.onload = function myloaded(){
+	ddate();
+}
+    window.onscroll=function (){
+        showup();
+    }
+function showup(){
+    if(document.body.scrollTop>20||document.documentElement.scrollTop>20){
+        document.getElementById("bttn").style.display="block";
+    }else{
+        document.getElementById("bttn").style.display="none";
+    }
+    
+}
+ function scrolllup(){
+     document.body.scrollTop= 0;
+     document.documentElement.scrollTop= 0;
+ }
+    </script>
+    
+</body>
+
+</html>
